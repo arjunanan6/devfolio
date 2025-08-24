@@ -1,11 +1,11 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import "./Podcast.scss";
-import {podcastSection} from "../../portfolio";
-import {Fade} from "react-reveal";
+import { podcastSection } from "../../portfolio";
+import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 export default function Podcast() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
 
   if (!podcastSection)
     console.error("podcastSection object for Podcast section is missing");
@@ -43,6 +43,7 @@ export default function Podcast() {
                   frameBorder="0"
                   scrolling="no"
                   title="Podcast"
+                  style={{ width: '90%', height: '400px' }}
                 ></iframe>
               </div>
             );

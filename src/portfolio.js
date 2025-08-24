@@ -23,7 +23,7 @@ const greeting = {
   username: "Arjun Anandkumar",
   title: "Hi, I'm Arjun",
   subTitle: emoji(
-    "I'm a passionate Data Engineer with a lot of hands-on experience in various databases, programming languages, cloud providers and industries. Although Python, Airflow, Snowflake, dbt and AWS are the main flavors these days, I'm quite open to new experiences and I think my accumulated knowledge helps me fit in practically anywhere."
+    "I'm a passionate Data Engineer with a lot of hands-on experience in various databases, programming languages, cloud providers and industries. Although Python, Airflow, Snowflake, dbt and AWS are the main flavors these days, I'm quite open to new experiences and I think my accumulated knowledge helps me fit in practically anywhere. In my spare time, I dabble in various hobbies such as coffee (yes, it's a thing), photography and perfumery."
   ),
   // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -378,8 +378,9 @@ const podcastSection = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
+
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
