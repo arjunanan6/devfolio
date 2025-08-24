@@ -44,7 +44,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I'm currently working as a Data Platform Engineer for Norlys. The absolute best thing was setting up an entirely new data platform from scratch within a month. \nThe all-time goal? Become a full-stack data nerd",
+  subTitle: "I'm currently working as a Senior Data Platform Engineer for Norlys. The absolute best thing was setting up an entirely new data platform from scratch within a month. \nThe all-time goal? Become a full-stack data nerd",
   skills: [
     emoji(
       "⚡ Develop stable, scalable and intuitive data platforms."
