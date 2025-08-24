@@ -2,10 +2,10 @@ name: Build and Deploy
 env:
   CI: false
   GITHUB_USERNAME: ${{ github.repository_owner }}
-  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This is automatically set by Github Actions
+  REACT_APP_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   USE_GITHUB_DATA: "true"
   USE_MEDIUM_DATA: "true"
-  MEDIUM_USERNAME: "arjun.anand1" # Change this to your medium username
+  MEDIUM_USERNAME: "arjun.anand1"
 on:
   workflow_dispatch:
   push:
@@ -32,7 +32,7 @@ jobs:
    #   - name: Update npm 🚀
    #     run: npm install -g npm@latest
 
-      - name: Install and Build 🔧 # Build the Project
+      - name: Install and Build
         run: |
           npm install
           npm run build
